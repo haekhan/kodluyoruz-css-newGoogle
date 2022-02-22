@@ -1,7 +1,7 @@
 body {
     justify-content: space-between;
     font-family: arial;
-    color: #5f6368;
+    background-color: #202124;
     margin: 0;
     padding: 0;
     display: flex;
@@ -24,6 +24,7 @@ header img {
 span {
     margin-right: 15px;
     font-size: 13px;
+    color: #e8eaed;
 }
 
 img.profile {
@@ -79,20 +80,22 @@ section div.sub {
 
 .sub input[type="submit"] {
     padding: 9px 16px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #303134;
     margin: 0 7px;
-    background-color: #f2f2f2;
+    background-color: #303134;
     border-radius: 5px;
     font-size: 14px;
-    color: #5f6368;
+    color: #e8eaed;
 }
 
 section span {
     margin: 30px 0;
+    color: rgb(189, 193, 198);
 }
 
 span a {
     text-decoration: none;
+    color: rgb(138, 180, 248);;
 }
 footer div {
     display: flex;
@@ -107,6 +110,7 @@ footer div a {
     color: #969ba1;
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
 footer div span {
@@ -116,13 +120,17 @@ footer div span {
 }
 
 footer {
-    background: #f7f7f7;
+    background: #202124;
     padding: 10px 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 hr {
     width: 100%;
-    border-color: #ffffff57;
+    border-color: rgb(33, 35, 39);
+    color: rgb(33, 35, 39);;
 }
 a img {
     margin: 0 5px;
